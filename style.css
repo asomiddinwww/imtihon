@@ -209,6 +209,113 @@ select {
 .bloc {
     display: none !important;
 }
+.cards-content h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.cards {
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto auto auto;
+}
+.card-item {
+    background-image: url(./img/bacagraunt.png);
+    width: 450px;
+    background-size: cover;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 50px -25px black;
+    justify-content: center;
+}
+.img-rightt {
+    width:60px;
+    padding-left: 20px;
+}
+.card-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 90px;
+    background-color:white;
+}
+.left-img {
+    width: 150px;
+}
+.card22 {
+    padding-top: 40px;
+}
+.link-imgg, .link-imgg1, .link-imgg2, .link-imgg3, .link-imgg4, .link-imgg5 {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.link-imgg img {
+    width: 355px;
+}
+.link-imgg2 img {
+    width: 265px;
+}
+.link-imgg3 img {
+    width: 190px; 
+    padding-right: 30px;
+}
+.link-imgg4 img {
+    width: 326px;
+}
+.link-imgg5 img {
+    width: 276px;
+}
+.link-imgg1 img {
+    width: 388px;
+}
+.card-item2 {
+    width: 450px;
+    padding: 20px 0;
+    background-size: cover;
+    height: 210px;
+    background-image: url(./img/modern-granary-grain-drying-complex-commercial-gra-PDQXUHQ\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.link-boxx {
+    width: 200px;
+    padding: 5px 10px;
+    position: absolute;
+    margin-left: -10px;
+    color: white;
+    background-color: #ffb005;
+}
+.link-boxx p {
+    line-height: 18px;
+}
+@media(max-width:1427px) {
+    .cards {
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    .card-box {
+        flex-direction: column;
+        padding: 10px 10px;
+        height: 100%;
+    }
+    .card-box p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .card-item {
+        width: 100%;
+    }
+}
 @media(max-width:1401px) {
     .main {
         width: 100%;
@@ -278,6 +385,25 @@ select {
     .main .nav-header .logo img {
         width: 115px;
     }
+    .card-item2 {
+        width: 100%;
+    }
+}
+@media(max-width:798px) {
+    .card-box2 img {
+        max-width: 300px;
+    }
+    .link-imgg, .link-imgg1, .link-imgg2, .link-imgg3, .link-imgg4, .link-imgg5 {
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: baseline;
+    }
+}
+@media(max-width:665px) {
+    .card-box2 img {
+        max-width: 200px;
+    }  
 }
 @media(max-width:498px) {
     .text-mai h1 {
@@ -288,6 +414,57 @@ select {
     }
     .text-mai .btn1 {
         width: 100%;
+    }
+    .card-item {
+        width: 100%;
+    }
+    .left-img {
+        width: 100px;
+    }
+    .card-box p {
+        font-size: 14px !important;
+    }
+    .cards-content h1{
+        font-size: 30px;
+    }
+    .cards {
+        gap: 1rem;
+        padding: 0 20px;
+    }
+    .card-item2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .link-imgg4 img {
+        margin-top: 102px;
+    }
+    .link-imgg5 img {
+        margin-top: 86px;
+    }
+    .link-imgg3 img {
+        margin-top: 60px;
+        width: 160px;
+    }
+    .link-imgg2 img {
+        margin-top: 83px;
+    }
+    .link-imgg1 img {
+        margin-top: 117px;
+    }
+    .link-imgg img {
+        margin-top: 110px;
+    }
+    .link-boxx{
+        width: 160px;
+    }
+    .link-boxx p {
+        font-size: 13px;
+    }
+}
+@media(max-width:420px) {
+    .card-box2 img {
+        max-width: 150px;
+        text-align: end;
     }
 }
 @media(max-width:350px) {
