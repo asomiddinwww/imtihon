@@ -394,7 +394,16 @@ select {
   }
   .location-content {
     width: 100%;
-    padding: 70px 0 10px 70px;
+    padding: 70px 0 0 70px;
+  }
+  .map {
+    width: 100%;
+  }
+  .map-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
   }
   .location-centr {
     display: flex;
@@ -414,11 +423,20 @@ select {
     gap: 1rem;
     background-color: #ffb005;
   }
+  .right-text h1 {
+    font-size: 40px;
+  }
+  .left-img4 img {
+    width: 60rem;
+  }
+  .right-text {
+    padding-top: 30px;
+  }
   .text-left2 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 1.7rem;
+    gap: 1.3rem;
   }
   .text-left2 h1 b {
     font-weight: 900;
@@ -427,6 +445,26 @@ select {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 400;
+  }
+  .right-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .right-text h1 {
+    font-size: 48px;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .btn5 {
+    width: 250px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #ffb005;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
   }
   .text-left2 p {
     font-weight: 400;
