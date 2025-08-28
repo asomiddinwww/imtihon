@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Syncopate:wght@400;700&family=Timmana&display=swap');
 *{
     padding: 0;
@@ -6,6 +8,79 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     list-style-type: none;
+}
+:root {
+    --font-family: "Fugaz One", sans-serif;
+    --second-family: "Roboto", sans-serif;
+}
+select {
+    border: none;
+    outline: none;
+}
+.link-left {
+    display: flex;
+    gap: 1rem;
+}
+.left-link p {
+    transform: rotateZ(180deg);
+    font-weight: 700;
+    font-size: 20px;
+}
+.line {
+    width: 90px;
+    height: 2px;
+    background-color: black;
+}
+.left-link {
+    transform: rotateZ(90deg);
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: -150px;
+}
+.text-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-facebook, .item-youtube, .item-linkedin {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdd480;
+    transform: rotateZ(-90deg);
+    transition: all 0.3s;
+}
+.content-main {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.item-linkedin:hover {
+    background-color: #ffb005;
+    color: white !important;
+    transition: all 0.3s;
+}
+.item-facebook:hover {
+    background-color: #ffb005;
+    color: white !important;
+    transition: all 0.3s;
+}
+.img-right img {
+    width: 100%;
+}
+.img-right {
+    width: 80%;
+}
+.item-youtube:hover {
+    background-color: #ffb005;
+    color: white !important;
+    transition: all 0.3s;
 }
 .header {
     width: 100%;
@@ -84,15 +159,108 @@
 .bars {
     display: none;
 }
-@media(max-width:1400px) {
+.text-main {
+    margin-left: -100px;
+}
+.text-main p {
+    font-size: 25px;
+    width: 310px;
+    padding-top: 130px;
+}
+.text-mai {
+    padding: 0 20px;
+}
+.text-mai p {
+    font-size: 25px;
+}
+.text-mai .btn1 {
+    padding: 10px 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffb005;
+}
+.text-main .btn1 {
+    padding: 10px 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffb005;
+}
+.text-mai h1 {
+    font-size: 42px;
+    top: 220px;
+    color: #ffb005;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+}
+.text-main h1 {
+    font-size: 42px;
+    position: absolute;
+    top: 220px;
+    color: #ffb005;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+}
+.bloc {
+    display: none !important;
+}
+@media(max-width:1401px) {
     .main {
         width: 100%;
         padding: 10px 15px;
+    }
+    .content-main  {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .container {
+        width: 100%;
+    }
+    .img-right {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .dn {
+        display: none !important;
+    }
+    .bloc {
+        display: block !important;
     }
 }
 @media(max-width:1213px) {
     .number-menu {
         display: none;
+    }
+}
+@media(max-width:1161px) {
+    .left-link {
+        display: none;
+    }
+    .text-main h1{
+        position: initial;
+        text-align: center;
+        font-size: 35px;
+    }
+    .text-left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-main {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-main p {
+        padding-top: 20px;
     }
 }
 @media(max-width:987px) {
@@ -109,6 +277,17 @@
     }
     .main .nav-header .logo img {
         width: 115px;
+    }
+}
+@media(max-width:498px) {
+    .text-mai h1 {
+        font-size: 23px;
+    }
+    .text-mai p {
+        font-size: 18px;
+    }
+    .text-mai .btn1 {
+        width: 100%;
     }
 }
 @media(max-width:350px) {
