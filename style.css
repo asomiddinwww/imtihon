@@ -446,6 +446,11 @@ select {
     text-transform: uppercase;
     font-weight: 400;
   }
+  .baranchs h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
   .right-text {
     display: flex;
     flex-direction: column;
@@ -456,6 +461,34 @@ select {
     line-height: 55px;
     text-transform: uppercase;
     font-weight: 400;
+  }
+  .card-right h1 {
+    font-size: 40px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .dffd {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .input {
+    padding-right: 80px;
+  }
+  .input .input2 {
+    width: 100%;
+    padding: 5px 30px;
+    border-bottom: 2px solid rgb(177, 171, 171);
+    border-top: 0px solid ;
+    border-left: 0px solid;
+    border-right: 0px solid ;
+  }
+  .dffd input:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
   }
   .btn5 {
     width: 250px;
@@ -478,10 +511,228 @@ select {
 
 
   }
+  .brand img {
+    width: 100%;
+  }
+  .brands {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
   .text-left2 .dnn a {
     color: #ffb005;
     font-size: 20px;
     font-weight: 700;
+}
+.branch {
+    width: 100%;
+    position: relative;
+    padding: 120px;
+}
+.baranchs  {
+    width: 92.1%;
+    padding: 20px;
+    position: absolute;
+    background-color: white;
+    margin-top: -75px;
+}
+.posa {
+    width: 100%;
+    padding-top: 50px;
+}
+.img-lefttt {
+    padding-left: 100px;
+}
+.img-lefttt img {
+    width: 450px;
+}
+.blurr {
+    width: 100%;
+    height: 100%;
+    background-color: #00000077;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding: 20px;
+}
+.card-right {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    gap: 2rem;
+}
+.card-right .btn6 {
+    width: 350px;
+    padding:10px 20px;
+    background-color: #ffb005;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.fiel {
+    width: 100%;
+    background-image: url(./img/field-of-wheat-73HJPPP\ 1.png);
+    background-size: cover;
+}
+.work {
+    width: 100%;
+    padding: 50px 0;
+}
+.item-card-work {
+    display: flex;
+    gap: 1rem;
+    border: white;
+}
+.pa1 {
+    position: absolute;
+    padding: 1px 10px;
+    margin-top: -235px;
+    color: white;
+    background-color: #ffb005;
+}
+.swiperr {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slidee {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slidee img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.text-right-work {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.more {
+    font-weight: 600;
+    color: #ffb005;
+}
+.text-right-work .mln {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    letter-spacing: 0%;
+
+}
+.work h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.card-work {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.card-work {
+    padding-top: 25px;
+}
+footer {
+    width: 100%;
+    padding: 80px 60px;
+}
+.contact12 {
+    display: flex;
+    gap: 2rem;
+}
+.ul-item .bold {
+    display: flex;
+    gap: 1rem;
+}
+.bold p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    background-color:#fdd480;
+    transition: all 0.3s;
+}
+.bold p:hover {
+    background-color: #ffbf00;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.ul-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.bold1 {
+    font-weight: 600;
+}
+.logon {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.itemmm {
+    font-size: 14px;
+    color: #808080;
+}
+.item-li a {
+    color: black;
+    font-size: 14.5px;
+}
+.input6 {
+    display: flex;
+    align-items: center;
+}
+.input6 input {
+    width: 260px;
+    padding: 10px 10px;
+    border-left:1px solid #c5c3c3;
+    border-right:none;
+    border-top:1px solid #c1bfbf;
+    border-bottom:1px solid #c9c7c7;
+}
+.input6 button {
+    padding: 5px 10px;
+    border-left:none;
+    cursor: pointer;
+    background-color: #ffb005;
+    border: none;
+}
+.itemm a {
+    text-decoration: underline;
+    color: #ffb005;
+}
+.bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 126%;
+    letter-spacing: 0%;
+
+}
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 @media(max-width:1427px) {
     .cards {
@@ -502,6 +753,10 @@ select {
     }
     .card-item {
         width: 100%;
+    }
+    .card-work {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 }
 @media(max-width:1401px) {
@@ -530,6 +785,23 @@ select {
 @media(max-width:1213px) {
     .number-menu {
         display: none;
+    }
+    .map-content {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        padding-top: 40px;
+    }
+    .right-text {
+        padding: 20px;
+    }
+    .left-img4 img {
+        width: 100%;
+    }
+    .footer-content {
+        display: grid;grid-template-columns: auto auto auto auto;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
     }
 }
 @media(max-width:1161px) {
@@ -570,10 +842,58 @@ select {
         width: 100%;
         padding: 0;
     }
+    .baranchs {
+        width: 90%;
+        margin-top: -20px;
+    }
+    .branch {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        padding-top: 200px;
+    }
+    .brand img {
+        width: 250px;
+    }
+    .brands {
+        overflow-x: auto;
+    }
+    .blurr {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .img-lefttt {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-lefttt img {
+        width: 100%;
+    }
+    .card-right h1 {
+        font-size: 40px;
+        line-height: 35px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}
+@media(max-width:1093px) {
+    .footer-content {
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media(max-width:987px) {
     .centr-menu {
         display: none !important;
+    }
+    .card-work {
+        grid-template-columns: auto;
     }
     .bars {
         display: flex;
@@ -605,7 +925,13 @@ select {
     }
     .text-left2 {
         width: 100%;
-        padding: 10px ;
+        padding: 10px;
+    }
+    .footer-content {
+        grid-template-columns: auto;
+    }
+    .contact12 {
+        flex-direction: column;
     }
 }
 @media(max-width:665px) {
@@ -625,6 +951,16 @@ select {
         width: 100%;
         font-size: 17px;
         padding: 15px;
+    }
+    .right-text {
+        gap: 1rem;
+    }
+    .input {
+        width: 100%;
+        padding: 0;
+    }
+    .card-right h1 {
+        font-size: 30px;
     }
 }
 @media(max-width:498px) {
@@ -646,11 +982,41 @@ select {
     .text-mai .btn1 {
         width: 100%;
     }
+    .btn6 {
+        width: 100% !important;
+    }
+    .item-card-work {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .img-left-work {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .img-left-work img {
+        width: 100%;
+    }
+    .card-work {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .card-item {
         width: 100%;
     }
+    .right-text h1 {
+        font-size: 35px;
+    }
     .left-img {
         width: 100px;
+    }
+    .btn5 {
+        width: 100%;
     }
     .card-box p {
         font-size: 14px !important;
